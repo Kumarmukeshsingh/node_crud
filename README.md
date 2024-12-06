@@ -1,4 +1,7 @@
-express js user registation project  
+open README.md file in a vs code and fallow th instruction .....
+
+
+1. express js user registation project  
 clone this repositry and user this project for learning purpuse.
 
  got to terminal and type....
@@ -20,7 +23,7 @@ clone this repositry and user this project for learning purpuse.
    
 
 
-   connect mongodb no-sql database
+  2. connect mongodb no-sql database
    download and  install mongodb compass in your local system .
 
    open power shell in windows opreating syatem  
@@ -33,7 +36,8 @@ clone this repositry and user this project for learning purpuse.
    " connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb "    
 
 
-after that aging start the express js server
+ 3. start express server 
+ after that aging start the express js server
 cmd :- node index.js 
 output 
  : server is running at  https://localhost:4000
@@ -41,9 +45,9 @@ output
 
 
 
-postman
+ 4. postman
 
-open postman 
+ open postman 
  New request 
 
  
@@ -56,19 +60,19 @@ open postman
   response{}
   
   PUT :  https://localhost:4000/users/:id
-  update the userr in database
+  update the userr in database.
   rsponse{}
   
-  DELETE: https://localhost:4000/users/:id
-  delete the user 
+  DELETE: https://localhost:4000/users/:id 
+  delete the user .
 response{
-  
+
 }
 
 
 
 
-check in mongodb compass 
+5. check in mongodb compass 
 all user avalible in the data base 
 
 
