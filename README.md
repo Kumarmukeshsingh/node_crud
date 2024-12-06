@@ -20,7 +20,6 @@ clone this repositry and user this project for learning purpuse.
    
 
 
-
    connect mongodb no-sql database
    download and  install mongodb compass in your local system .
 
@@ -29,7 +28,6 @@ clone this repositry and user this project for learning purpuse.
    this command check the mongodb version like  this  " MongoDB shell version v5.0.20 "
    cmd :- mongod     
    this command start the mongodb server 
-
    cmd :- mongo 
   this command  connect the mongodb server
    " connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb "    
@@ -51,18 +49,21 @@ open postman
  
   POST: https://localhost:4000/users
   for create the user 
+  response{}
   
   GET: https://localhost:4000/users
   get all all  from the mongodb database
-  
+  response{}
   
   PUT :  https://localhost:4000/users/:id
   update the userr in database
-  
+  rsponse{}
   
   DELETE: https://localhost:4000/users/:id
   delete the user 
-
+response{
+  
+}
 
 
 
